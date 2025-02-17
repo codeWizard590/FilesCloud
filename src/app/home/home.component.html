@@ -1,0 +1,12 @@
+<app-header ></app-header>
+<!-- file-upload.component.html -->
+<div class="file-drop-area">
+    <ngx-file-drop
+      [dropZoneLabel]="'Drag and drop your files here'"
+      (onFileDrop)="onFileDrop($event)"
+      (onFileOver)="onFileOver($event)"
+      (onFileLeave)="onFileLeave($event)">
+    </ngx-file-drop>
+    <button (click)="triggerFileInput()">Upload Files</button>
+</div>
+  

@@ -1,0 +1,18 @@
+
+/* file-upload.component.css */
+.file-drop-area {
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+/* .file-drop-area:hover {
+    --pill-accent: var(--orange-red);
+    background-color: color-mix(in srgb, var(--pill-accent) 15%, transparent);
+} */
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
